@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <!--放大镜引入-->
+    <link rel="stylesheet" type="text/css" href="./iconfont.css">
+</head>
+<body>
+<!--header开始-->
+<header>
+    <div class="header_one">
+        <a href="">
+            <i class="iconfont icon-fangdajing"></i>
+            寻找宝贝店铺
+        </a>
+    </div>
+</header>
+<!--&lt;!&ndash;header结束->-->
+
+<!--轮播开始-->
+<link rel="stylesheet" href="css/swiper.min.css">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="img/lut.1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/lut.2.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/lut.3.jpg" alt="">
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+</div>
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        loop: true,
+        autoplay:true,
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        }
+
+    })
+</script>
+<!--轮播结束-->
+<!--图标开始-->
+<div class="header_two">
+    <div class="header_two_top">
+        <ul>
+            <li><img src="img/TB1.png" alt=""><span style="top: 1.6rem;left: 0.5rem">天猫</span></li>
+            <li><img src="img/TB2.png" alt=""><span style="top: 1.6rem;left: 2.3rem">聚划算</span></li>
+            <li><img src="img/TB3.png" alt=""><span style="top: 1.6rem;left: 4.3rem">天猫国际</span></li>
+            <li><img src="img/TB4.png" alt=""><span style="top: 1.6rem;left: 6.5rem">外卖</span></li>
+            <li><img src="img/TB5.png" alt=""><span style="top: 1.6rem;left: 8.3rem">天猫超市</span></li>
+        </ul>
+    </div>
+    <div class="header_two_center">
+        <ul>
+            <li><img src="img/TB6.png" alt=""><span style="top: 3.8rem;left: 0.3rem">充值中心</span></li>
+            <li><img src="img/TB7.png" alt=""><span style="top: 3.8rem;left: 2.1rem">飞猪旅行</span></li>
+            <li><img src="img/TB8.png" alt=""><span style="top: 3.8rem;left: 4.4rem">领金币</span></li>
+            <li><img src="img/TB9.png" alt=""><span style="top: 3.8rem;left: 6.5rem">拍卖</span></li>
+            <li><img src="img/TB10.png" alt=""><span style="top: 3.8rem;left: 8.5rem">分类</span></li>
+        </ul>
+    </div>
+    <div class="header_one_bottom">
+        <div class="swiper-container one"></div>
+        <div class="swiper-container two">
+            <div class="swiper-wrapper one">
+                <div class="swiper-slide">
+                    <span>手机</span> Type-c接口的手机功能居然这么多
+                </div>
+                <div class="swiper-slide">
+                    <span>运动</span> 致敬科比！全球仅一双紫金Kobe AD
+                </div>
+                <div class="swiper-slide">
+                    <span>装修</span> 瓷砖干铺和湿铺区别这么大？
+                </div>
+                <div class="swiper-slide">
+                    <span>美女</span> 百斤的微胖女生，搭配注意3点瘦
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/swiper.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                spaceBetween: 10,
+                loop: true,
+                autoplay: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
+    </div>
+</div>
+<!--图标结束-->
+<!--抢购界面开始-->
+
+<!--抢购界面结束-->
+</body>
+</html>
