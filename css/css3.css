@@ -6,6 +6,7 @@ header{
 .D{
     width: 10rem;
     margin: auto;
+
 }
 header ul li{
     width: 2.48rem;
@@ -103,3 +104,121 @@ header ul li{
     font-size: 39px;
 }
 /*中间部分结束*/
+/*bottom部分开始*/
+.hui{
+    width: 10rem;
+    height: 0.15rem;
+    background: #f0eeee;
+    margin-top: 0.2rem;
+}
+.bottom{
+    width: 10rem;
+    height: 0.5rem;
+    margin-top: 0.4rem;
+
+}
+.bottom ul li{
+    width: 3rem;
+    height: 0.5rem;
+    float: left;
+    line-height: 0.5rem;
+    font-size: 13px;
+}
+[data-dpr="2"] .bottom ul li{
+    font-size: 20px;
+}
+[data-dpr="3"] .bottom ul li{
+    font-size: 30px;
+}
+.bottom ul li img{
+    width: 2rem;
+    height: 0.4rem;
+    margin: auto;
+    display: block;
+}
+.hui1{
+    width: 10rem;
+    height: 0.01rem;
+    background: #e5e5e5;
+    margin-top: 0.3rem;
+}
+/*bottom部分结束*/
+
+/*footer开始*/
+footer{
+    width: 10rem;
+    height: 1.2rem;
+    position: fixed;
+    bottom: 0;
+    border: 0.0133rem solid #e5e5e5;
+}
+footer ul li:nth-child(1){
+    width: 1.5rem;
+    height: 1.2rem;
+    float: left;
+    text-align: center;
+    border: 0.0133rem solid #e5e5e5;
+}
+footer ul li:nth-child(2){
+    width: 1.5rem;
+    height: 1.2rem;
+    float: left;
+    text-align: center;
+    border: 0.0133rem solid #e5e5e5;
+}
+footer ul li:nth-child(3){
+    width: 1.5rem;
+    height: 1.2rem;
+    float: left;
+    text-align: center;
+    border: 0.0133rem solid #e5e5e5;
+}
+footer ul li:nth-child(4){
+    width: 2.68rem;
+    height: 1.2rem;
+    background: orange;
+    float: left;
+    text-align: center;
+    line-height: 1.2rem;
+    border: 0.0133rem solid #e5e5e5;
+}
+footer ul li:nth-child(5){
+    width: 2.68rem;
+    height: 1.2rem;
+    float: left;
+    background: red;
+    text-align: center;
+    line-height: 1.2rem;
+    border: 0.0133rem solid #e5e5e5;
+}
+footer ul li i{
+    width: 0.348rem;
+    height: 0.348rem;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 0.1rem;
+
+}
+[data-dpr="2"] footer ul li i{
+    font-size: 40px;
+}
+[data-dpr="3"] footer ul li i{
+    font-size: 60px;
+}
+footer ul li span{
+    width:  0.9rem;
+    height:0.32rem;
+    text-align: center;
+    padding-top: 0.3rem;
+    display: block;
+    font-size: 10px;
+    margin-left: 0.4rem;
+}
+[data-dpr="2"] footer ul li span{
+    font-size: 20px;
+}
+[data-dpr="3"] footer ul li span{
+    font-size: 30px;
+}
+/*footer结束*/
