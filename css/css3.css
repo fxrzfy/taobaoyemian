@@ -93,6 +93,7 @@ header ul li{
     height: 0.5rem;
     float: left;
     font-size: 13px;
+    color: #999;
 
 }
 [data-dpr="2"] .center div ul li {
