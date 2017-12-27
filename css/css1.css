@@ -1,0 +1,239 @@
+/*header开始*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.B{
+    width: 10rem ;
+    height: 19rem;
+    margin: auto;
+    background: #eeeeee;
+}
+header .top{
+    width: 10rem;
+    height: 1.6rem;
+    background-color: rgb(255, 223, 0);
+}
+header .top ul li{
+    width:  1.66667rem;
+    height: 1.3rem;
+    float: left;
+}
+header .top ul li i{
+    display: block;
+    margin-left: 0.7rem;
+    margin-top: 0.3rem;
+    font-size: 20px;
+}
+[data-dpr="2"] header .top ul li i{
+    font-size: 40px;
+}
+[data-dpr="3"] header .top ul li i{
+    font-size: 60px;
+}
+header .top ul li span{
+    width:  1.8rem;
+    height:0.32rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    display: block;
+    font-size: 13px;
+    margin-left: 0.1rem;
+    margin-top: -0.3rem;
+}
+[data-dpr="2"] header .top ul li span{
+    font-size: 26px;
+}
+[data-dpr="3"] header .top ul li span{
+    font-size: 39px;
+}
+header .top ul li img{
+    width:  0.6rem;
+    height:0.6rem;
+    padding-top: 0.4rem;
+    margin: auto;
+    display: block;
+    font-size: 13px;
+}
+[data-dpr="2"] header .top ul li img{
+    font-size: 26px;
+}
+[data-dpr="3"] header .top ul li img{
+    font-size: 39px;
+}
+.bottom{
+    width: 10rem;
+    height: 14rem;
+    background-color: rgb(255, 223, 0);
+}
+.bottom .bottom_D{
+    width: 9rem;
+    margin: auto;
+    padding-top: -0.2rem;
+}
+.bottom .bottom_D .bottom_D_one{
+     width: 9rem;
+     height: 0.75rem;
+ }
+.bottom .bottom_D .bottom_D_one ul li{
+    width: 3rem;;
+    height: 0.75rem;
+    float: left;
+    margin: auto;
+    margin-top: 0.75rem;
+}
+.bottom .bottom_D .bottom_D_one ul li i{
+    width: 0.348rem;
+    height: 0.348rem;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+}
+.bottom .bottom_D .bottom_D_one ul li span{
+    width:  1.8rem;
+    height:0.32rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    display: block;
+    font-size: 13px;
+    margin-left: 0.7rem;
+}
+[data-dpr="2"] header .bottom .bottom_D .bottom_D_one ul li span{
+    font-size: 26px;
+}
+[data-dpr="3"] header .bottom .bottom_D .bottom_D_one ul li span{
+    font-size: 39px;
+}
+[data-dpr="2"] .bottom .bottom_D .bottom_D_one ul li i{
+    font-size: 40px;
+}
+[data-dpr="3"] .bottom .bottom_D .bottom_D_one ul li i{
+    font-size: 60px;
+}
+/*header结束*/
+.jiantouu{
+    width:  0.6rem;
+    height:0.6rem;
+    padding-top: 0.3rem;
+    display: block;
+    font-size: 13px;
+}
+.DD_left{
+    float: left;
+    font-size: 25px;
+    line-height: 1.2rem;
+}
+.DD_right{
+    float: right;
+}
+
+
+/*banner开始*/
+.banner{
+    width: 10rem;
+    background: #ffffff;
+}
+.banner span{
+    width: 4rem;
+    height: 0.8rem;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    line-height: 0.8rem;
+
+}
+[data-dpr="2"] .banner span{
+    font-size: 26px;
+}
+[data-dpr="3"] .banner span {
+    font-size: 39px;
+}
+.footer{
+    width: 9rem;
+    margin: auto;
+}
+.footer ul{
+    width: 9rem;
+    height: 2.9rem;
+}
+.footer ul li{
+    width: 2.6rem;
+    height: 3.3rem;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.6rem;
+    border: 0.1rem solid #ffffff;
+    background: #ffffff;
+}
+.footer ul li p{
+    width: 1rem;
+    height: 0.5rem;
+    margin: auto;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.footer ul li img{
+    width: 2.6rem;
+    height: 2.8rem;
+    margin: auto;
+
+}
+/*banner结束*/
+
+
+/*切换列表开始*/
+
+.qiehuantubiao{
+    width: 10rem;
+    height: 1.413rem;
+    background: white;
+    margin-top: 0.2rem;
+    position: fixed;
+    bottom: 0;
+
+}
+.qiehuantubiao ul{
+    list-style: none;
+    float: left;
+}
+.qiehuantubiao ul li{
+    width: 2rem;
+    height: 1.413rem;
+    line-height: 0.3rem;
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top: 0.3rem;
+}
+.qiehuantubiao ul li span{
+    display: block;
+    width: 2rem;
+    margin-top: 0.3rem;
+    font-size: 13px;
+}
+
+.qiehuantubiao ul li span{
+    font-size: 13px;
+}
+[data-dpr="2"] .qiehuantubiao ul li span{
+    font-size: 26px;
+}
+[data-dpr="3"] .qiehuantubiao ul li span{
+    font-size: 39px;
+}
+.qiehuantubiao ul li i{
+    font-size: 26px;
+}
+[data-dpr="2"] .qiehuantubiao ul li i{
+    font-size: 39px;
+}
+[data-dpr="3"] .qiehuantubiao ul li i{
+    font-size: 52px;
+}
+
+
+
+/*切换列表结束*/

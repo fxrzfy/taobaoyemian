@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <link rel="stylesheet" href="css/css3.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <script src="css/iconfont.js"></script>
+</head>
+<body>
+<div  class="D" >
+  <!--header部分开始-->
+  <header>
+    <ul>
+        <li>基本信息</li>
+        <li>详情列表</li>
+        <li>参数</li>
+        <li>评价</li>
+    </ul>
+  </header>
+  <!--header部分结束-->
+  <!--轮播开始-->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <div class="lunbotu">
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <img src="img2/iphone1.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                  <img src="img2/iphone2.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                  <img src="img2/iphone3.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                  <img src="img2/iphone4.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                  <img src="img2/iphone5.jpg" alt="">
+              </div>
+          </div>
+          <!-- 如果需要分页器 -->
+          <div class="swiper-pagination"></div>
+      </div>
+  </div>
+  <script src="js/swiper.min.js"></script>
+  <script>
+      var mySwiper = new Swiper ('.swiper-container', {
+          loop: true,
+          autoplay:true,
+
+          // 如果需要分页器
+          pagination: {
+              el: '.swiper-pagination',
+          }
+
+      })
+  </script>
+  <!--轮播结束-->
+<!--中间部分开始-->
+    <div class="center">
+        <p>【12期免息】Apple/苹果iPhone X 全网通4G智能手机苹果 X</p>
+        <span>￥8388-9688</span><br>
+        <i>该商品最高可享12期分期免息</i>
+        <div>
+            <ul>
+                <li>快递: 0.00</li>
+                <li style="text-align: center">月销量 27777件</li>
+                <li style="text-align: right">北京</li>
+            </ul>
+        </div>
+    </div>
+<!--中间部分结束-->
+    <div class="bottom">
+        
+    </div>
+
+</div>
+</body>
+</html>
